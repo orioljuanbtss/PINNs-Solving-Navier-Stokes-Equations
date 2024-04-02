@@ -1,0 +1,18 @@
+FROM continuumio/miniconda3
+
+WORKDIR /app
+
+# Create the environment:
+COPY environment.yml .
+RUN conda env create -f environment.yml
+
+# Make RUN commands use the new environment:
+RUN echo "conda activate navier_stokes" >> ~/.bashrc
+SHELL ["/bin/bash", "--login", "-c"]
+
+# The code to run when container is started:
+
+COPY app/src/main/Navier_Stokes_Model.py entrypoint.sh ./
+RUN chmod +x entrypoint.sh
+
+ENTRYPOINT ["./entrypoint.sh"]

@@ -1,0 +1,13 @@
+In this project, we rely heavily on the body of scientific literature to base our approach, leveraging insights from seminal papers to bolster the development of physics-informed machine learning models.
+Useful resources are:
+
+- https://www.grc.nasa.gov/www/k-12/airplane/nseqs.html
+- https://towardsdatascience.com/solving-differential-equations-with-neural-networks-afdcf7b8bcc4 
+- https://medium.com/optalysys/deep-learning-and-fluid-dynamics-solving-the-navier-stokes-equations-with-an-optical-neural-3f79d929a389
+- https://www.irjmets.com/uploadedfiles/paper//issue_11_november_2023/46300/final/fin_irjmets1700625689.pdf 
+- paper on why we use CNN for solving Partial Differential Equations of CFD
+
+- can donwload data from here? 
+    https://eagle-dataset.github.io/  DONT USE THIS BEACUSE IS TOO BIG! IF NOT IT WOULD BE THE BEST
+
+- INSTEAD WE USE THIS ONE: https://arxiv.org/pdf/2212.07564.pdf

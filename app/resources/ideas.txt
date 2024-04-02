@@ -1,0 +1,7 @@
+For future projects:
+
+- not deep learning but statistics: A/B testing, fancy distribution stuff...
+- CNN projects:
+    - https://www.kaggle.com/datasets/tawsifurrahman/tuberculosis-tb-chest-xray-dataset 
+- Normal Binary Problems:
+    - https://www.kaggle.com/datasets/mathchi/diabetes-data-set 

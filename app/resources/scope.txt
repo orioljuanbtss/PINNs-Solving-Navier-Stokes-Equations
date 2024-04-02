@@ -1,0 +1,57 @@
+Scope:
+
+    1. Objective:
+
+        The primary objective of the project is to develop a Convolutional Neural Network (CNN) model capable of generating fluid flow simulations based on input data derived from the Eagle dataset. This involves learning the relationships between the input features (node positions, types, velocity, pressure) and the dynamics of the fluid flow.
+
+    2. Data Description:
+
+        The dataset consists of simulation data obtained from classical Computational Fluid Dynamics (CFD) methods. It includes information such as node positions, types, velocity, pressure, and edge information. This data serves as the basis for training the CNN model.
+        
+    3. Modeling Approach:
+
+        The CNN model will be trained to predict fluid flow dynamics based on the input data features. The model will learn the underlying patterns and relationships between the input features and the corresponding fluid flow behavior.
+        
+    4. Operator Learning:
+
+        The project aims to incorporate operator learning, whereby the CNN model learns the physical meaning and significance of the operators involved in fluid flow simulations. This involves capturing the relationships between different operators and their impact on the fluid flow dynamics.
+Objectives:
+
+    1. Develop a CNN model architecture capable of processing input data from the Eagle dataset and predicting fluid flow dynamics.
+
+    2. Train the CNN model using simulation data derived from classical CFD methods, focusing on learning the relationships between input features and fluid flow behavior.
+
+    3. Incorporate operator learning into the CNN model, enabling it to understand the physical meaning and significance of the operators involved in fluid flow simulations.
+
+    4. Evaluate the trained CNN model's performance and accuracy in generating fluid flow simulations, comparing its predictions against ground truth data and reference solutions from the Eagle dataset.
+
+Next Steps:
+
+    1. Data Preparation:
+
+        Preprocess the simulation data from the Eagle dataset, including node positions, types, velocity, pressure, and edge information. Normalize the data, handle missing values, and prepare it for training the CNN model.
+    
+    2. Model Development:
+
+        Design and implement a CNN architecture suitable for the task of generating fluid flow simulations. Define the input and output layers, as well as the intermediate layers and activation functions.
+    
+    3. Training:
+
+        Train the CNN model using the preprocessed simulation data. Define appropriate loss functions, optimization algorithms, and evaluation metrics. Monitor the training process and adjust hyperparameters as needed to improve performance.
+    
+    4. Operator Learning:
+
+        Incorporate mechanisms for operator learning into the CNN model. This may involve designing custom layers or loss functions to capture the relationships between different operators and their impact on fluid flow dynamics.
+    
+    5. Evaluation:
+
+        Evaluate the trained CNN model's performance using validation and test datasets. Assess its ability to accurately predict fluid flow dynamics and understand the physical meaning of the operators involved.
+    
+    6. Iterative Refinement:
+
+        Iterate on the model architecture and training process based on evaluation results. Fine-tune hyperparameters, adjust model complexity, and explore additional techniques to improve performance and generalization.
+    
+    7. Documentation and Reporting:
+
+        Document the project methodology, including data preprocessing steps, model architecture, training process, and evaluation results. Prepare a comprehensive report summarizing the project findings and conclusions.
+        By following these steps, you can effectively define the scope and objectives of your project based on the Eagle dataset and proceed with developing a CNN model for generating fluid flow simulations while incorporating operator learning principles.

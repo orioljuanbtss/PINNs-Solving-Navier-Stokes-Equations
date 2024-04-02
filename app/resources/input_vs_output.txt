@@ -1,0 +1,16 @@
+Input and Output Representation:
+
+Input: The input to your CNN model should consist of the features extracted from the Eagle dataset. This could include the 2D positions of nodes, node types, velocity, pressure, and edge information. You'll need to preprocess and normalize these features before feeding them into the model.
+Output: The output of your CNN model will be the predicted fluid flow dynamics. This could be represented as velocity fields, pressure distributions, or other relevant flow properties depending on the specific objectives of your project.
+Optimization Method:
+
+For training your CNN model, you can use popular optimization methods such as Stochastic Gradient Descent (SGD), Adam, RMSprop, or others. Adam is commonly used for deep learning tasks due to its adaptive learning rate capabilities and efficiency in practice. However, you may need to experiment with different optimization methods and learning rates to find the best performance for your specific model and dataset.
+Loss Function:
+
+The choice of loss function depends on the nature of your problem and the specific properties of the output you're predicting. For fluid flow simulation tasks, common loss functions include Mean Squared Error (MSE) for regression problems and Cross-Entropy Loss for classification problems.
+Since your task involves predicting fluid flow dynamics, you may consider using a combination of different loss functions to capture various aspects of the flow behavior. For example, you could use MSE loss to penalize deviations in velocity predictions and additional terms to enforce physical constraints or match reference solutions for pressure distributions.
+It's also possible to design custom loss functions tailored to your specific objectives, incorporating domain knowledge and physical principles to guide the learning process.
+In summary, the input to your CNN model should consist of features extracted from the Eagle dataset, while the output should be the predicted fluid flow dynamics. For optimization, you can experiment with different methods such as Adam, and for the loss function, consider using a combination of MSE loss and additional terms to enforce physical constraints. Additionally, custom loss functions may be designed based on domain knowledge and specific project requirements.
+
+
+
