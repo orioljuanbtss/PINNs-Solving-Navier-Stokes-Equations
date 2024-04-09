@@ -13,14 +13,7 @@ rho = 1            # density
 channel = Rectangle(Point(0, 0), Point(2.2, 0.41))
 cylinder = Circle(Point(0.2, 0.2), 0.05)
 domain = channel - cylinder
-
-cylinder = Circle(Point(0.2, 0.2), 0.05)
-wing = Rectangle(Point(0.2, 0.41), Point(1.0, 0.51))
-tail = Rectangle(Point(1.2, 0), Point(1.7, 0.25))
-airplane_shape = channel - cylinder + wing + tail
-
-
-mesh = generate_mesh(airplane_shape, 64) #domain
+mesh = generate_mesh(domain, 64) #domain
 
 
 
