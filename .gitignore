@@ -1,0 +1,28 @@
+
+# Repository auxiliar files
+.git
+
+# Notebook auxiliar files
+.ipynb_checkpoints
+.jupyterlab-workspace
+
+# Cached precompiled Python code
+__pycache__/
+
+# Environment var file
+loc.env
+prod.env
+condis.env
+bts.env
+.env
+
+
+
+*.json
+*.gz
+*.csv
+*.parquet
+*.log
+*.txt
+*.h5
+*.xdmf
