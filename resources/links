@@ -1,0 +1,11 @@
+
+Fenics Documentation 
+https://fenics.readthedocs.io/projects/containers/en/latest/introduction.html
+
+docker stop fenics-container
+docker start fenics-container
+docker exec -ti -u fenics fenics-container /bin/bash -l
+
+data generation
+https://fenicsproject.org/pub/tutorial/html/._ftut1009.html
+
