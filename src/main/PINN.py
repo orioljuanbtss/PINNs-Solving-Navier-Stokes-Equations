@@ -35,7 +35,7 @@ class NavierStokes():
 
         #loss
         self.ls = 0
-
+ 
         #iteration number
         self.iter = 0
 
