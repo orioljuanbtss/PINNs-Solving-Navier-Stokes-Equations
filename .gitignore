@@ -21,3 +21,4 @@ resources/
 *.h5
 *.xdmf
 *.env
+*.pkl
