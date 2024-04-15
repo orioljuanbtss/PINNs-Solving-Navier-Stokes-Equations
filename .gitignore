@@ -1,23 +1,17 @@
+# Repository auxiliary files
+.git/
 
-# Repository auxiliar files
-.git
-
-# Notebook auxiliar files
-.ipynb_checkpoints
-.jupyterlab-workspace
+# Notebook auxiliary files
+.ipynb_checkpoints/
+.jupyterlab-workspace/
 
 # Cached precompiled Python code
 __pycache__/
 
-# Environment var file
-loc.env
-prod.env
-condis.env
-bts.env
-.env
+# Folders
+resources/
 
-
-
+# Ignored file types
 *.json
 *.gz
 *.csv
@@ -26,3 +20,4 @@ bts.env
 *.txt
 *.h5
 *.xdmf
+*.env
