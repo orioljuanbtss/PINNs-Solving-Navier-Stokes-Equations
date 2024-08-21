@@ -111,7 +111,6 @@ class NavierStokes():
         self.optimizer.step(self.closure)
 
 N_train = 5000
-print(data_path)
 data = scipy.io.loadmat(data_path / Path('cylinder_wake.mat'))
 
 U_star = data['U_star']  # N x 2 x T
